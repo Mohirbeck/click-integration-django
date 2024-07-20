@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from requests.exceptions import HTTPError
 
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django import forms
 from payments.forms import CreditCardPaymentFormWithName, PaymentForm
 from payments.fields import CreditCardNumberField
